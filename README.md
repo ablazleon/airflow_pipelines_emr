@@ -1,4 +1,4 @@
-# airflow_pipelines_emr
+# airflow_pipelines_redshift
 
  ***Credits***
 Udacity Data Engineer Nanodegree Program
