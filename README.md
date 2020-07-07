@@ -37,7 +37,7 @@ Staging the data
 
 Inspired form this references
 
-- [x] ***Task uses params***: Instead of running a static SQL statement to stage the data, the task uses params to generate the copy statement dynamically
+- [ ] ***Task uses params***: Instead of running a static SQL statement to stage the data, the task uses params to generate the copy statement dynamically
 
 - [x] ***Logging used***: The operator contains logging in different steps of the execution
 
@@ -49,18 +49,18 @@ This iamge shown the connections created in the admin view
 
 Loading dimensions and facts
 
-- [x] ***Set of tasks using the dimension load operator is in the DAG***: Dimensions are loaded with on the LoadDimension operator
+- [ ] ***Set of tasks using the dimension load operator is in the DAG***: Dimensions are loaded with on the LoadDimension operator
 
-- [x] ***A task using the fact load operator is in the DAG***: Facts are loaded with on the LoadFact operator
+- [ ] ***A task using the fact load operator is in the DAG***: Facts are loaded with on the LoadFact operator
 
-- [x] ***Both operators use params***: Instead of running a static SQL statement to stage the data, the task uses params to generate the copy statement dynamically
+- [ ] ***Both operators use params***: Instead of running a static SQL statement to stage the data, the task uses params to generate the copy statement dynamically
 
-- [x] ***The dimension task contains a param to allow switch between append and insert-delete functionality***: The DAG allows to switch between append-only and delete-load functionality
+- [ ] ***The dimension task contains a param to allow switch between append and insert-delete functionality***: The DAG allows to switch between append-only and delete-load functionality
 
 Data Quality Checks
 
-- [x] ***A task using the data quality operator is in the DAG and at least one data quality check is done***: Data quality check is done with correct operator
+- [ ] ***A task using the data quality operator is in the DAG and at least one data quality check is done***: Data quality check is done with correct operator
 
-- [x] ***The operator raises an error if the check fails pass***: The DAG either fails or retries n times
+- [ ] ***The operator raises an error if the check fails pass***: The DAG either fails or retries n times
 
-- [x] ***The operator is parametrized***: Operator uses params to get the tests and the results, tests are not hard coded to the operator
+- [ ] ***The operator is parametrized***: Operator uses params to get the tests and the results, tests are not hard coded to the operator
